@@ -125,7 +125,7 @@ export class ModLoader {
                             return module[member];
                         },
                         set(v) {
-                            module["$s"](member, v);
+                            module.$s(member, v);
                         },
                     });
                 }
